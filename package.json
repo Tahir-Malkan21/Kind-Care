@@ -1,11 +1,12 @@
 {
   "name": "frontend",
   "private": true,
+  "homepage": "https://Tahir-Malkan21.github.io/Kind-Care",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/Kind-Care/",
     "lint": "eslint .",
     "preview": "vite preview"
   },
